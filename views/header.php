@@ -12,8 +12,13 @@
 
     <script type="text/javascript" src="views/js/jquery-2.2.4.min.js"></script>
     <script type="text/javascript" src="views/js/materialize.min.js"></script>
-    
-
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $("select").material_select();
+        // $("#country").change(populateStates("country","state"));
+      });
+    </script>
+    <script type="text/javascript" src="views/js/countries.js"></script>
   </head>
   <body>
     <header>
@@ -25,7 +30,7 @@
               <li><a href="/morren">HOME</a></li>
               <li><a href="?controller=pages&action=about">ABOUT US</a></li>
               <li><a href="#">GALLERY</a></li>
-              <li><a href="#">CONTACT US</a></li>
+              <li><a href="?controller=pages&action=contact">CONTACT US</a></li>
             </ul>
           </div>
         </div>

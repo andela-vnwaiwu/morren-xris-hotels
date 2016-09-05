@@ -4,8 +4,12 @@
       require_once('views/pages/home.php');
     }
 
-     public function about() {
+    public function about() {
       require_once('views/pages/about.php');
+    }
+
+    public function contact() {
+      require_once('views/pages/contact.php');
     }
 
     public function error() {
