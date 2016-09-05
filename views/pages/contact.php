@@ -23,11 +23,9 @@
           </div>
           <div class="input-field col s3">
             <select class="active validate browser-default" id="country" name="country"></select>
-            <label for="country">Country</label>
           </div>
           <div class="input-field col s3">
             <select class="active validate browser-default" id="state" name="state"></select>
-            <label for="state">State</label>
           </div>
             <script type="text/javascript">
               populateCountries("country", "state");
