@@ -259,7 +259,7 @@ s_a[250] = "Kosovo|Montenegro|Serbia|Vojvodina";
 s_a[251] = "Central|Copperbelt|Eastern|Luapula|Lusaka|North-Western|Northern|Southern|Western";
 s_a[252] = "Bulawayo|Harare|ManicalandMashonaland Central|Mashonaland East|Mashonaland West|Masvingo|Matabeleland North|Matabeleland South|Midlands";
 
-
+// populates the states found in a selected country
 function populateStates(countryElementId, stateElementId) {
 
   var selectedCountryIndex = document.getElementById(countryElementId).selectedIndex;
@@ -276,7 +276,7 @@ function populateStates(countryElementId, stateElementId) {
     stateElement.options[stateElement.length] = new Option(state_arr[i], state_arr[i]);
   }
 }
-
+// Uploads the list of countries from the array
 function populateCountries(countryElementId, stateElementId) {
   // given the id of the <select> tag as function argument, it inserts <option> tags
   var countryElement = document.getElementById(countryElementId);
@@ -288,7 +288,6 @@ function populateCountries(countryElementId, stateElementId) {
   }
 
   // Assigned all countries. Now assign event listener for the states.
-
   if (stateElementId) {
     countryElement.onchange = function () {
       populateStates(countryElementId, stateElementId);

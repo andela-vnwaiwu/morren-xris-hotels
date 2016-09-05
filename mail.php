@@ -1,4 +1,6 @@
-<?php 
+<?php
+
+// checks if the form was actually submitted with the submit button
 if(isset($_POST["submit"])) {
   $to = "vonvikky@gmail.com"; // this is your Email address
   $from = test_input($_POST["email"]); // this is the sender's Email address
@@ -12,9 +14,12 @@ if(isset($_POST["submit"])) {
   $headers = "From:" . $from;
   mail($to, $subject, $message, $headers); 
 } else {
+
+  // redirects user who accidentally visits this url to the contact page
   header("location: http://localhost/morren/index.php?controller=pages&action=contact");
 }
 
+// Removes white spaces and html and special characters from the form before processing 
 function test_input($data) {
   $data = trim($data);
   $data = stripslashes($data);
