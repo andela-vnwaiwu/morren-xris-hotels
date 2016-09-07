@@ -1,3 +1,8 @@
+<script type="text/javascript">
+      $(document).ready(function() {
+        $("select").material_select();
+      });
+    </script>
 <section id="contact">
   <div class="container">
     <h3 class="text-justify"> Contact</h3>

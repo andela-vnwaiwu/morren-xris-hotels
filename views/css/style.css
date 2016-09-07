@@ -88,5 +88,18 @@ button {
 }
 #testimonial {
   padding-top: 20px;
-  background-color: rgba(0,0,0,0.3)
+  background-color: rgba(0,0,0,0.5)
+}
+.carousel-item > img {
+  height: 300px;
+}
+.carousel-slider {
+  margin-top: 20px;
+}
+.gallery {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.pad-list {
+  padding-left: 20px;
 }

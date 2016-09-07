@@ -15,5 +15,9 @@
     public function error() {
       require_once('views/pages/error.php');
     }
+
+    public function gallery() {
+      require_once('views/pages/gallery.php');
+    }
   }
 ?>
