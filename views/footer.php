@@ -2,7 +2,7 @@
       <div class="container">
         <div class="row">
           <div class="col l4 s12">
-            <h6 class="white-text">Footer Content</h6>
+            <h5 class="white-text">What are we?</h5>
             <p class="text-justify white-text">
               Morren-Xris is a world class hotel located in Onitsha, one of the commercial cities of the south-east.
               It is a 5-star hotel offering quality and value added sevices. It's facilities are world-class and it is a 
@@ -12,8 +12,8 @@
             </p>
           </div>
           <div class="col l4 s12">
-            <h6 class="white-text">Site Map</h6>
-            <ul>
+            <h5 class="white-text center-align">Site Map</h5>
+            <ul class="center-align pad-list">
               <li><a class="grey-text text-lighten-3" href="#!">Home</a></li>
               <li><a class="grey-text text-lighten-3" href="#!">About Us</a></li>
               <li><a class="grey-text text-lighten-3" href="#!">Gallery</a></li>
@@ -21,7 +21,7 @@
             </ul>
           </div>
           <div class="col l4 s12">
-            <h6 class="white-text">Contact Information</h6>
+            <h5 class="white-text">Contact Information</h5>
             <p>
               <address class="white-text">Amaokpala-Oko by pass, Amaokpala</address>
               <address class="white-text">Orumba North, Anambra state</address>
@@ -48,6 +48,5 @@
         </div>
       </div>
     </footer>
-    <script type="text/javascript" src="js/index.js"></script>
   </body>
 </html>
